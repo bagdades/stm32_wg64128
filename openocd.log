@@ -1,0 +1,27 @@
+Info : Unable to match requested speed 1000 kHz, using 950 kHz
+Info : Unable to match requested speed 1000 kHz, using 950 kHz
+Info : clock speed 950 kHz
+Info : STLINK v2 JTAG v32 API v2 SWIM v7 VID 0x0483 PID 0x3748
+Info : using stlink api v2
+Info : Target voltage: 4.312426
+Info : stm32f1x.cpu: hardware has 6 breakpoints, 4 watchpoints
+Info : accepting 'gdb' connection from pipe
+Info : device id = 0x20036410
+Info : flash size = 64kbytes
+undefined debug reason 7 - target needs reset
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x080051b8 msp: 0x20005000
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000003a msp: 0x20005000
+Warn : keep_alive() was not invoked in the 1000ms timelimit. GDB alive packet not sent! (1228). Workaround: increase "set remotetimeout" in GDB
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x080051b8 msp: 0x20005000
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x080051b8 msp: 0x20005000
+Info : halted: PC: 0x080034fa
+Info : halted: PC: 0x080034fc
+Info : halted: PC: 0x080034fe
+Info : halted: PC: 0x08003500
+Info : halted: PC: 0x080034fa
+Info : halted: PC: 0x080034fa
+Info : dropped 'gdb' connection
